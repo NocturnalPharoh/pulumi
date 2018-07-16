@@ -65,7 +65,7 @@ type DiagInfo struct {
 
 	// The very last diagnostic event we got for this resource (regardless of severity). We'll print
 	// this out in the non-interactive mode whenever we get new events. Importantly, we don't want
-	// to print out the most significant diagnostic, as that means a flurry of event swill cause us
+	// to print out the most significant diagnostic, as that means a flurry of events will cause us
 	// to keep printing out the most significant diagnostic over and over again.
 	LastDiag *engine.DiagEventPayload
 
